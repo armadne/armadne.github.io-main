@@ -18,14 +18,15 @@ const competencesArray = Object.entries(competences).map(([key, values]) => ({
 
 import "../styles/style.scss";
 
-import cyber from "../data/cybersecurite.json";
+/*import cyber from "../data/cybersecurite.json";*/
 
 const cyberArray = [
-  ...cyber["404CTF"].challenges,
-  ...cyber["TryHackMe"].rooms,
-   ...cyber["404CTF2026"].challenges,
+  {
+    title: "TEST 404CTF 2026",
+    image: "images/investig-sql.webp",
+    description: "TEST : si cette carte apparaît, le composant fonctionne."
+  }
 ];
-
 export default function Home() {
 
   return (
