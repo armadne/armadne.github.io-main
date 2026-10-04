@@ -21,7 +21,7 @@ import "../styles/style.scss";
 import cyber from "../data/cybersecurite.json";
 
 const cyberArray = [
-  ...cyber["404CTF_2026"].challenges,
+  ...cyber["404CTF2026"].challenges1,
   ...cyber["404CTF"].challenges,
   ...cyber["TryHackMe"].rooms
 ];
