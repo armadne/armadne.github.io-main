@@ -59,7 +59,7 @@
   "event": "404CTF – Université Télécom Sud Paris / DGSE / OVHcloud",
   "date": "2026",
   "ranking": "632ᵉ sur 2 019 participants",
-  "challenges1": [
+  "challenges": [
     {
       "title": "OSINT - 404CTF 2026",
       "image": "images/osint2026.webp",
