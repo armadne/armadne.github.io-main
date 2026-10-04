@@ -22,6 +22,7 @@ import cyber from "../data/cybersecurite.json";
 
 const cyberArray = [
   ...cyber["404CTF"].challenges,
+  ...cyber["404CTF_2026"].challenges,
   ...cyber["TryHackMe"].rooms
 ];
 
