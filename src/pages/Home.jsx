@@ -21,9 +21,9 @@ import "../styles/style.scss";
 import cyber from "../data/cybersecurite.json";
 
 const cyberArray = [
-  ...cyber["404CTF2026"].challenges,
   ...cyber["404CTF"].challenges,
-  ...cyber["TryHackMe"].rooms
+  ...cyber["TryHackMe"].rooms,
+   ...cyber["404CTF2026"].challenges,
 ];
 
 export default function Home() {
