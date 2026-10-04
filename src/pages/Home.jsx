@@ -27,7 +27,6 @@ const cyberArray = [
 ];
 
 export default function Home() {
-  console.log("HOME.JSX MODIFIÉ");
 
   return (
     <>
