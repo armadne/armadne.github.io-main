@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Sophie Bluel – Portfolio d’architecte d’intérieur",
+    "image": "images/bluel.webp",
+    "link": "sophie-bluel/index.html",
+    "description": "Création d’une page web dynamique en JavaScript à partir d’une API REST. Mise en place d’une galerie de projets filtrable par catégories, génération dynamique du DOM, authentification administrateur et interface de gestion permettant l’ajout et la suppression de projets."
+  },
+  {
+    "id": 2,
+    "title": "Nina Carducci – Débogage et optimisation SEO",
+    "image": "images/carducci.webp",
+    "link": "https://github.com/armadne/Nina-Carducci-Dev-master",
+    "description": "Analyse et correction de bugs JavaScript, optimisation des performances (lazy loading, compression, accessibilité), amélioration du référencement naturel (SEO), audit avec Lighthouse et Wave, et correction des problèmes d’accessibilité (ARIA, contrastes, balises sémantiques)."
+  },
+  {
+    "id": 3,
+    "title": "KASA – Application web de location immobilière",
+    "image": "images/kasa.webp",
+    "link": "https://github.com/armadne/kasa",
+    "description": "Développement d’une application web en React avec une architecture en composants. Mise en place du routing avec React Router, gestion des états, affichage dynamique des données, composants interactifs (carousel, collapse), et respect des contraintes UX/UI."
+  },
+
+      {
+    "id": 4,
+    "title": "Le Vieux Grimoire – Backend Node.js / Express",
+    "image": "images/grimoir.webp",
+    "link": "https://github.com/armadne/Backend-PROJ-GRIMOIR",
+    "description": "Développement du back-end d’un site de notation de livres avec Node.js et Express. Création d’une API REST sécurisée, gestion de l’authentification JWT, stockage des données avec MongoDB et Mongoose, gestion des images, et implémentation des règles métiers (notes, permissions, sécurité)."
+  },
+
+
+    {
+    "id": 5,
+    "title": "Booki – Intégration d’une maquette responsive",
+    "image": "images/booki.webp",
+    "link": "booki-projet-main/index.html",
+    "description": "Projet réalisé dans le cadre de la formation Développeur Web chez OpenClassrooms. Intégration fidèle d’une maquette Figma en HTML5 et CSS3, avec mise en place d’un design responsive desktop, tablette et mobile."
+  },
+
+    {
+    "id": 6,
+    "title": "Site vitrine – Magasin de meubles et électroménager",
+    "image": "images/merlin.webp",
+    "link": "Magasin/index.html",
+    "description": "Création d’un site web fictif présentant différents produits. L’objectif est de démontrer comment une interface claire et structurée peut faciliter la navigation et la mise en valeur d’un catalogue de produits."
+  },
+
+    {
+    "id": 7,
+    "title": "Site vitrine – Association de basketball",
+    "image": "images/kingz.webp",
+    "link": "https://kingz-congo1.vercel.app/",
+    "description": "Première version d’un site vitrine développée lors d’un stage.Frontend réalisé avec React,backend avec Express.js, visant à présenter l’association et ses activités."
+  },
+
+      {
+    "id": 8,
+    "title": "Système d’authentification – React",
+    "image": "images/auth.webp",
+    "link": "https://github.com/armadne/6_authentification_react_JS",
+    "description": "Développement d’un site d’authentification intégrant l’inscription, la connexion et la déconnexion des utilisateurs, avec gestion des états et des formulaires en React."
+  }
+
+]

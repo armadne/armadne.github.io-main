@@ -1,0 +1,29 @@
+[
+
+      {
+    "id": 1,
+    "title": "Dévelopement web avec Flask",
+    "description": " Certification AlisonFreeCourse — Création d’applications web avec Flask : routing, templates Jinja, formulaires, gestion des données et bases du backend Python.",
+    "image": "images/certifications/diplome-flask.webp",
+    "link": "images/certifications/diplome_flask.pdf"
+    
+  },
+
+{
+  "id": 2,
+  "title": "Diplôme Développeur informatique",
+  "description": "Diplôme OpenClassrooms — Formation en développement informatique couvrant la programmation, le développement web, les bases de données, Git et la conception d’applications.",
+  "image": "images/diplome-oc-dev.webp",
+  "link": "images/certifications/OC-DEV-DIPLOME.pdf"
+},
+
+    {
+    "id": 3,
+    "title": "Fondamentaux des réseaux informatiques",
+    "description": "Certification France Université Numérique — Bases Python, structures de données, POO, fichiers et automatisation.",
+    "image": "images/certifications/ipv6-certif.webp",
+    "link": "images/certifications/ipv6-certif.pdf"
+  }
+
+
+]

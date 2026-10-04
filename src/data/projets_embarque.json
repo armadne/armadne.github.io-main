@@ -1,0 +1,34 @@
+[
+
+  {
+    "id": 1,
+    "title": "Détecteur de luminosité portable (Arduino)",
+    "image": "images/light-detector.webp",
+    "link": "1detecteur_luminosit_/1detecteur_luminosit_.ino",
+    "description": "Conception d’un détecteur de luminosité portable utilisant un Arduino. Le système contrôle des LED et un buzzer en fonction de l’intensité de la lumière ambiante, permettant de visualiser et signaler les variations de luminosité."
+  },
+
+  {
+    "id": 2,
+    "title": "Système de détection de présence et de mouvement (ESP32 + LD2450)",
+    "image": "images/detection-mouv-proj.webp",
+    "link": "https://github.com/armadne/SYS-EMB-LD2450-ESP32-EN_COURS",
+    "description": "Conception d’un système de détection utilisant un ESP32 et un capteur radar LD2450. Mise en place d’une machine virtuelle avec Home Assistant, installation et configuration d’ESPHome, communication entre l’ESP32 et Home Assistant et création de plusieurs indicateurs de présence et de mouvement. Le système permet également l’envoi d’alertes de détection via Telegram. Rapport disponible sur demande."
+  },
+
+  {
+    "id": 3,
+    "title": "Bjorn",
+    "image": "images/bjorn.webp",
+    "link": "https://github.com/armadne/BJORN-DOC-PERSO",
+    "description": "Assemblage et configuration d’un dispositif portable de cybersécurité basé sur un Raspberry Pi et un écran. Mise en place du système, configuration de la connexion SSH et de l’interface web, résolution de problèmes liés au RNDIS, aux modules et à la configuration du système. Rapport disponible sur demande."
+  },
+
+  {
+    "id": 4,
+    "title": "Pwnagotchi",
+    "image": "images/pwnagotchi.webp",
+    "link": "https://github.com/armadne/BJORN-DOC-PERSO",
+    "description": "Assemblage et configuration d’un Pwnagotchi basé sur un Raspberry Pi Zero 2 W et un écran Waveshare. Mise en place du système, configuration de la connexion RNDIS, accès SSH et interface web, ainsi que résolution de problèmes liés à la configuration matérielle et logicielle. Rapport disponible sur demande."
+  }
+]

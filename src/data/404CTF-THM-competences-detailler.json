@@ -1,0 +1,61 @@
+ 
+ {
+ "404CTF_2025" : [
+    
+    "1ère participation, Classement: 547/2893",
+
+    "J’ai participé à 7 challenges OSINT, qui m’ont permis de développer mes compétences en investigation numérique, d’apprendre à utiliser différents outils et à élaborer des stratégies en situation réelle, souvent par improvisation",
+
+
+    "Pour le challenge 'JWT Falsification' de la catégorie 'sécurité web' : j'ai appris la gestion des rôles utilisateurs et des risques liés à une mauvaise sécurisation des tokens",
+    "Pour le challenge 'Path Traversal' de la catégorie 'sécurité web', j'ai appris : j'ai appris qu'il y avait la possibilté d'avoir accés à l’arborescence du serveur donc des accès non autorisés",
+    "Ces challenges m’ont permis de renforcer ma compréhension du backend web, des erreurs de configuration courantes et de l’impact concret des mauvaises pratiques de sécurité sur la protection des données et la gestion des accès.",
+
+
+    "Pour le challenge 'Analyse Forensique' j'ai appris la lecture de captures réseau, filtrage avancé, compréhension du protocole USB. J'ai appris aussi à utiliser 'Leftover Capture Data' afin de reconstituer le flux exfiltré, analyser les trames USB.",
+    "Ce challenge m’a permis de mieux comprendre les techniques d’exfiltration de données, l’analyse de captures réseau et les bases de la forensique numérique, tout en renforçant ma rigueur méthodologique lors d’investigations techniques.",
+
+
+    "Pour le challenge 'Sécurité materielle' j'ai appris à utiliser la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel, et exporter le signal au format WAV pour écouter le signal reconstruit afin d’identifier le flag caché"
+
+],
+
+"404CTF_2026": [
+"2e participation au 404CTF. Classement 632/2019",
+"Résolution de 4 challenges dans la catégorie OSINT, avec des difficultés allant de Intro à Moyen.",
+
+"Pour le challenge 'Canular savant 1/3' (Facile), j’ai recherché un rond-point parisien à partir d’indices géographiques concernant plusieurs fontaines. J’ai utilisé des recherches web, Google Maps et Wikipédia afin de recouper les différentes pistes et identifier le lieu recherché.",
+
+"Pour le challenge 'OSINT METRO DODO' (Moyen), j’ai analysé les lignes de métro passant par Châtelet afin d’identifier deux stations portant les noms de scientifiques. J’ai étudié les différentes stations et recoupé leurs noms avec les scientifiques correspondants.",
+
+"Pour le challenge 'Canular savant 2/3' (Moyen), j’ai identifié un groupe de musique alternatif originaire de Columbus, puis recherché une référence à un groupe de scientifiques français dans leurs paroles. Les recherches m’ont conduit vers Twenty One Pilots et leur morceau 'Morph', qui fait référence au groupe de mathématiciens Nicolas Bourbaki.",
+
+"Pour le challenge 'CHAUD DEVANT' (Intro), j’ai identifié des scientifiques à partir d’une image et d’indices biographiques. J’ai ensuite recoupé différentes sources afin de retrouver leur lieu de décès ainsi que plusieurs informations personnelles nécessaires à la résolution du challenge.",
+
+"Ces challenges m’ont permis de renforcer mes compétences en recherche web, recherche d’images, analyse d’indices, recoupement de sources, recherche géographique et investigation OSINT.",
+
+
+"Résolution de 1 challenge dans la catégorie Divers, de difficulté Intro.",
+
+ "Pour le challenge 'Super EnQuête Libre 1/4' (Intro), j’ai mené une investigation dans une base de données SQLite accessible en ligne de commande via Netcat. J’ai exploré différentes tables et utilisé des requêtes SQL telles que SELECT, LIMIT et OFFSET afin de rechercher un individu et recouper les informations disponibles. L’analyse des tables Person et Attendance m’a permis d’identifier le badge actuellement associé à Noel Laurent et de résoudre le challenge.", "Ce challenge m’a permis de renforcer mes compétences en gestion et exploration de bases de données SQL, en utilisation de SQLite en ligne de commande, ainsi qu’en investigation et recoupement de données.",
+
+ "Résolution de 1 challenge dans la catégorie Analyse forensique, de difficulté Facile.",
+
+"Pour le challenge 'SMS CURIEUX' (Facile), j’ai analysé plusieurs bases de données SQLite contenant des SMS/MMS avec DB Browser for SQLite afin d’extraire différents fragments du flag et les recouper.",
+
+"Ce challenge m’a permis de renforcer mes compétences en analyse forensique, extraction de données SQLite et recoupement d’informations."
+
+],
+
+
+    "TryHackMe_explication_detaille" : [
+    "Le CTF 'Bounty Hacker' m’a permis de développer une méthodologie complète de test d’intrusion en environnement Linux. J’ai appris à effectuer une phase de reconnaissance efficace à l’aide de Nmap afin d’identifier les ports ouverts et les services exposés sur une machine cible. L’exploitation du protocole FTP m’a ensuite permis de récupérer un fichier distant (<strong>task.txt</strong>), contenant des informations exploitables pour identifier un utilisateur valide. J’ai mis en œuvre une attaque de brute-force sur le service SSH à l’aide de l’outil <strong>Hydra</strong>, en utilisant une wordlist adaptée pour obtenir des identifiants valides. Une fois l’accès obtenu, j’ai pu me connecter au système via SSH et mener une phase de post-exploitation, incluant l’analyse des droits et des permissions utilisateurs. L’examen des privilèges avec la commande <strong>sudo -l</strong> m’a permis d’identifier une mauvaise configuration autorisant l’exécution de la commande <strong>tar</strong> sans mot de passe. L’exploitation de cette faille m’a conduit à une élévation de privilèges, aboutissant à l’obtention d’un accès root et à la lecture du fichier sensible 'root.txt', validant ainsi la compromission complète de la machine.",
+
+    "Le CTF 'Basic Pentesting' m’a permis de mettre en pratique une méthodologie complète de pentesting, en commençant par l’analyse de la surface d’attaque à l’aide de Nmap afin d’identifier les services exposés. J’ai renforcé mes compétences en énumération web et réseau grâce à l’utilisation de Gobuster et d’enum4linux pour découvrir des répertoires cachés et des utilisateurs valides. J’ai ensuite mené une attaque de brute-force SSH avec Hydra et la wordlist rockyou.txt afin d’obtenir un accès initial au système. L’analyse post-exploitation avec linPEAS m’a permis d’identifier un vecteur d’élévation de privilèges via une clé privée SSH, que j’ai pu exploiter en cassant son chiffrement à l’aide de JohnTheRipper, consolidant ainsi mes compétences en escalade de privilèges et en gestion des identifiants.",
+
+    "Le CTF 'RootMe' m’a permis de consolider mes bases en pentesting web et système, en combinant reconnaissance réseau, énumération web et exploitation d’une fonctionnalité d’upload mal sécurisée. J’ai appris à contourner des restrictions d’extension afin de déposer un web shell et d’obtenir un accès initial à la machine via un reverse shell 'Netcat'. La phase de post-exploitation m’a permis d’approfondir ma compréhension des permissions UNIX, notamment la recherche et l’exploitation de fichiers SUID. L’identification d’un binaire Python mal configuré avec le bit SUID root m’a permis de réaliser une élévation de privilèges et d’obtenir un accès root, validant ainsi la compromission complète du système.",
+
+    "Le CTF 'Simple CTF' m’a permis de renforcer mes compétences en reconnaissance réseau et web, en identifiant les services exposés avec Nmap et en analysant une application web vulnérable reposant sur un CMS obsolète. J’ai appris à exploiter une injection SQL connue (CVE-2019-9053) afin de récupérer des identifiants valides et d’obtenir un accès initial au système. La phase de post-exploitation m’a permis de consolider ma compréhension des mécanismes de gestion des privilèges sous Linux. L’analyse des droits sudo avec <strong>sudo -l</strong> a révélé une mauvaise configuration autorisant l’exécution de Vim en tant que root sans mot de passe. L’exploitation de cette faiblesse m’a permis d’obtenir un shell root et de valider la compromission complète de la machine. * Les Write-up détaillé disponibles sur demande"
+  ]
+
+ }

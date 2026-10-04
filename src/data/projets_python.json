@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Bot Google Maps",
+    "image": "images/itineraire-bot.webp",
+    "link" : "https://github.com/armadne/Tour-Eiffel/tree/main/bot_eiffel",
+    "description" : "Le script ouvre Google Maps, recherche un lieu spécifique clique sur le bouton d’itinéraire, et interagit avec l’interface pour afficher les options de trajet."
+  }
+,
+
+
+
+  {
+    "id": 2,
+    "title": "Web scraper",
+    "image": "images/web-scraper.webp",
+    "link" : "https://github.com/armadne/code-creation-fiche-produit/blob/main/main-generate-fiche-produits.py",
+    "description": "Développement d’un bot Python capable de générer automatiquement des fiches produits Word à partir d’une liste de numéros SKU fournie dans un fichier Excel. Le script récupère pour chaque produit les informations suivantes depuis un site web : titre, image, description, spécifications techniques et documentation PDF. Il utilise les bibliothèques Playwright, openpyxl, requests et python-docx, et peut être réadapté à d'autres sites ou formats de fiche."
+  }
+
+,
+
+
+
+  {
+    "id": 3,
+    "title": "Script d'automatisation",
+    "image": "images/script-auto-mail.webp",
+    "link" : "https://github.com/armadne/easy_check_with_phone_number",
+    "description": "Développement d'un script automatisé pour envoyer des notifications SMS à mon téléphone lors de la réception d'un e-mail, en utilisant les conseils et l'assistance de ChatGPT (Python, Tulio, ExchangeLib, PushBullet) (EN COURS)"
+  }
+]

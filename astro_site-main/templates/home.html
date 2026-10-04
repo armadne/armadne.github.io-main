@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename="css/home.css")}}">
+    </head>
+
+
+    <style>
+        body
+        {
+            background-image: url({{url_for('static', filename="images/space4.jpg")}})
+        }
+    </style>
+
+    <div class="solar">
+        <h3>Solar System</h3>
+        <a href="/solar_system" class="system"><img src="static/images/solar7.jpg" /></a>
+    </div>
+    
+    <div class="galaxie">
+        <h3>Galaxies</h3>
+        <a href="/galaxies"><img src="static/images/espace1.jpg" alt="" /></a>
+    </div>
+
+    <div class="univers">
+        <h3>Univers</h3>
+        <a href="/universe" class="univers1"><img id="img" src="static/images/univers8.jpg" alt="" /></a>
+    </div>
+    
+</html>
+
+{% endblock %}

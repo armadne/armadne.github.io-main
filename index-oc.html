@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+<header class="site-header">
+  <h1 id="titre"><strong>Portfolio</strong></h1>
+
+  <nav id="navbar" aria-label="Navigation principale">
+    <ul class="nav-list">
+      <li class="item"><a href="#site-web">Site Web</a></li>
+      <li class="item"><a href="#projets-python">Python</a></li>
+      <li class="item"><a href="#certifications">Certifications</a></li>
+      <li class="item"><a href="#embarque">Projets Système Embarqué</a></li>
+      <li class="item"><a href="#cybersecurite">Cybersécurité</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section class="intro">
+  <h2>PRÉSENTATION</h2>
+  <p>
+   Je m'appelle Madane AROUL, développeur autodidacte passionné, je conçois des outils et systèmes embarqués orientés IoT et cybersécurité.
+  </p>
+</section>
+
+<section id="site-web">
+  <h2 class="titre-categorie">Site Web</h2>
+
+  <article class="project">
+  <a href="sophie-bluel/index.html">
+    <img src="img/bluel.png" alt="Portfolio Sophie Bluel">
+  </a>
+  <p><strong>Sophie Bluel – Portfolio d’architecte d’intérieur</strong></p>
+  <p>
+    Création d’une page web dynamique en JavaScript à partir d’une API REST.
+    Mise en place d’une galerie de projets filtrable par catégories,
+    génération dynamique du DOM, authentification administrateur
+    et interface de gestion permettant l’ajout et la suppression de projets.
+  </p>
+</article>
+
+<article class="project">
+  <a href="https://github.com/armadne/Nina-Carducci-Dev-master">
+    <img src="img/carducci.png" alt="Site optimisé Nina Carducci">
+  </a>
+  <p><strong>Nina Carducci – Débogage et optimisation SEO</strong></p>
+  <p>
+    Analyse et correction de bugs JavaScript, optimisation des performances
+    (lazy loading, compression, accessibilité),
+    amélioration du référencement naturel (SEO),
+    audit avec Lighthouse et Wave,
+    et correction des problèmes d’accessibilité (ARIA, contrastes, balises sémantiques).
+  </p>
+</article>
+
+<article class="project">
+  <a href="https://github.com/armadne/kasa">
+    <img src="img/kasa.png" alt="Application React Kasa">
+  </a>
+  <p><strong>KASA – Application web de location immobilière</strong></p>
+  <p>
+    Développement d’une application web en React avec une architecture en composants.
+    Mise en place du routing avec React Router,
+    gestion des états,
+    affichage dynamique des données,
+    composants interactifs (carousel, collapse),
+    et respect des contraintes UX/UI.
+  </p>
+</article>
+
+<article class="project">
+  <a href="https://github.com/armadne/Backend-PROJ-GRIMOIR">
+    <img src="img/grimoir.png" alt="Backend Le Vieux Grimoire">
+  </a>
+  <p><strong>Le Vieux Grimoire – Backend Node.js / Express</strong></p>
+  <p>
+    Développement du back-end d’un site de notation de livres avec Node.js et Express.
+    Création d’une API REST sécurisée,
+    gestion de l’authentification JWT,
+    stockage des données avec MongoDB et Mongoose,
+    gestion des images,
+    et implémentation des règles métiers (notes, permissions, sécurité).
+  </p>
+</article>
+<article class="project">
+  <a href="booki-projet-main/index.html">
+    <img src="img/booki.png" alt="Projet Booki – intégration HTML CSS">
+  </a>
+  <p><strong>Booki – Intégration d’une maquette responsive</strong></p>
+  <p>
+    Projet réalisé dans le cadre de la formation Développeur Web chez OpenClassrooms.
+    Intégration fidèle d’une maquette Figma en HTML5 et CSS3,
+    avec mise en place d’un design responsive desktop, tablette et mobile.
+  </p>
+</article>
+
+<article class="project">
+  <a href="Magasin/index.html">
+    <img src="img/merlin.png" alt="Site vitrine magasin de meubles">
+  </a>
+  <p><strong>Site vitrine – Magasin de meubles et électroménager</strong></p>
+  <p>
+    Création d’un site web fictif présentant différents produits.
+    L’objectif est de démontrer comment une interface claire et structurée
+    peut faciliter la navigation et la mise en valeur d’un catalogue de produits.
+  </p>
+</article>
+
+
+<article class="project">
+  <a href="https://kingz-congo1.vercel.app/">
+    <img src="img/kingz.png" alt="Site vitrine association de basketball">
+  </a>
+  <p><strong>Site vitrine – Association de basketball</strong></p>
+  <p>
+    Première version d’un site vitrine développée lors d’un stage.
+    Frontend réalisé avec React,
+    backend avec Express.js,
+    visant à présenter l’association et ses activités.
+  </p>
+</article>
+
+
+<article class="project">
+  <a href="https://github.com/armadne/6_authentification_react_JS">
+    <img src="img/auth.png" alt="Système d’authentification React">
+  </a>
+  <p><strong>Système d’authentification – React</strong></p>
+  <p>
+    Développement d’un site d’authentification intégrant
+    l’inscription, la connexion et la déconnexion des utilisateurs,
+    avec gestion des états et des formulaires en React.
+  </p>
+</article>
+
+
+
+</section>
+
+<section id="projets-python">
+  <h2 class="titre-categorie">Projets-Python</h2>
+
+  <article class="project">
+    <a href="bot_eiffel/Eiffel.py"><img src="img/itineraire-bot.png" alt=""></a>
+    <p><strong>Script d’automatisation Selenium</strong>
+      Le script il ouvre Google Maps, recherche un lieu spécifique (ici « La Tour Eiffel »)
+      clique sur le bouton d’itinéraire, et interagit avec l’interface pour afficher les options de trajet.</p>
+  </article>
+
+  <article class="project">
+    <a href="https://github.com/armadne/code-creation-fiche-produit/blob/main/main-generate-fiche-produits.py"><img src="img/web-scraper.png" alt="web-scraper-projet"></a>
+    <p>
+      <strong>Web scraper</strong> Développement d’un bot Python capable de générer automatiquement des fiches produits Word à partir d’une liste de numéros SKU fournie dans un fichier Excel.
+      Le script récupère pour chaque produit les informations suivantes depuis un site web : titre, image, description, spécifications techniques et documentation PDF.
+      Il utilise les bibliothèques Playwright, openpyxl, requests et python-docx, et peut être réadapté à d'autres sites ou formats de fiche.
+      <a href="https://versatilium.gumroad.com/l/automation_py?_gl=1*18itrqa*_ga*MTAzODcxMjkxLjE3NDY0NDg4NDA.*_ga_6LJN6D94N6*czE3NDg3Nzg5NjYkbzEkZzEkdDE3NDg3NzkwMzgkajU3JGwwJGgw">Voir le projet sur Gumroad</a>
+    </p>
+  </article>
+
+</section>
+
+<section id="embarque">
+  <h2 class="titre-categorie">Projets Système Embarqué</h2>
+
+  <article class="project">
+    <a href="https://github.com/armadne/ESP32-FLASK-WEBSITE-MOTION-DETECTION-MAIN">
+      <img src="img/motion-detector-esp32.png" alt="Système de détection avec ESP32">
+    </a>
+
+    <h3>Système de détection de présence connecté (ESP32)</h3>
+
+    <p>
+      Réalisation d’un système de détection utilisant un ESP32, un capteur PIR et un capteur ultrasonique.
+      Lorsqu’une présence est détectée, une LED et un buzzer s’activent.
+      Une interface web développée avec Flask permet d’afficher l’état du système en temps réel via le Wi-Fi.
+      Le projet est portable grâce à une alimentation par batterie externe.
+    </p>
+
+    <p>
+      Projet réalisé avec l’aide de ChatGPT, ce qui m’a permis de mieux comprendre le code,
+      d’intégrer l’ESP32 et de faire communiquer le système embarqué avec une interface web.
+    </p>
+  </article>
+
+  <article class="project">
+   
+    <a href="1detecteur_luminosit_/1detecteur_luminosit_.ino">
+      <img src="img/light-detector.png" alt="Détecteur de luminosité Arduino">
+    </a>
+
+    <h3>Détecteur de luminosité portable (Arduino)</h3>
+
+    <p>
+      Conception d’un détecteur de luminosité portable utilisant un Arduino.
+      Le système contrôle des LED et un buzzer en fonction de l’intensité de la lumière ambiante,
+      permettant de visualiser et signaler les variations de luminosité.
+    </p>
+  </article>
+</section>
+
+
+
+<section id="cybersecurite">
+
+  <header class="cyber-header">
+    <h2>Cybersécurité</h2>
+    <h3>Participation Capture The Flag (CTF)</h3>
+  </header>
+
+
+  <!-- ===================== 404CTF ===================== -->
+  <article class="ctf-block">
+
+    <div class="ctf-title-404-ctf">
+
+       <img src="img/404CTF.jpg" alt="Logo 404CTF" class="ctf-404-logo">
+    <div>
+    <h3>404CTF (Université Télécom Sud Paris / DGSE / OVHcloud) - 10 mai au 1 juin 2025</h3>
+    <p><strong>Classement : 547ᵉ sur 2 893 participants (top 20 %)</strong></p>
+
+    </div>
+  </div>
+
+
+  <div class="ctf-grid">
+
+    <div class="ctf-card">
+      <img src="img/osint.png" alt="OSINT 404CTF">
+
+      <h4>OSINT – 404CTF</h4>
+      <p>
+        J’ai participé à 7 challenges OSINT dans le cadre de l’événement de cybersécurité 404CTF, organisé par l’Université Paris-Saclay, la DGSE et OVHcloud.<br>
+        Ces épreuves m’ont permis d’exercer mes compétences en investigation numérique, en mobilisant des outils et méthodes variés, parmi lesquels :
+      </p>
+      <ul>
+        <li>Recherche d’informations sur les réseaux sociaux</li>
+        <li>Utilisation de SunCalc pour estimer l’heure et la date de prise de vue d’une photo</li>
+        <li>Analyse d’articles de presse pour extraire des données contextuelles</li>
+        <li>Consultation de rapports d’accidents aériens pour localiser un crash (challenge "Heart Attack")</li>
+        <li>Géolocalisation avancée et recherche commerciale pour identifier le restaurant le plus éloigné de la station spatiale de Kourou et obtenir le prix d’une boisson (challenge "Addition Salée")</li>
+        <li>Identification d’oiseaux à partir d’un enregistrement audio afin de confirmer une localisation en Guyane (flag : Lamprospiza melanoleuca) (utilisation de l'application mobile BirdNet pour l'identification d'oiseaux)</li>
+      </ul>
+      <p><strong>* Les write-ups détaillés sont disponibles sur demande.</strong></p>
+    
+      </div>
+      
+
+
+
+<div class="ctf-card">
+  <img src="img/securite-web.png" alt="Web 404CTF"/>
+
+  <h4>Sécurité Web – 404CTF</h4>
+
+  <p>
+    J’ai résolu plusieurs challenges portant sur la sécurité des applications web, ce qui m’a permis de pratiquer
+    l’exploitation de vulnérabilités courantes dans un environnement contrôlé et de mieux comprendre les mécanismes
+    internes côté serveur.
+  </p>
+
+  <ul>
+    <li>
+      <strong>JWT Falsification</strong> — Analyse et manipulation de jetons JSON Web Token afin de contourner
+      l’authentification. J’ai exploité une mauvaise configuration de la vérification de signature pour modifier
+      le payload et usurper des privilèges.
+      <br>
+      <em>Compétences :</em> structure JWT, validation cryptographique, gestion des rôles, risques liés aux tokens mal sécurisés.
+    </li>
+
+    <li>
+      <strong>Path Traversal</strong> — Exploitation d’entrées utilisateur mal filtrées via des séquences
+      <code>../</code> permettant d’accéder à des fichiers hors du répertoire prévu.
+      <br>
+      <em>Compétences :</em> arborescence serveur, accès non autorisé, validation des chemins, protection des fichiers sensibles.
+    </li>
+  </ul>
+
+  <p>
+    Ces challenges m’ont permis de renforcer ma compréhension du backend web, des erreurs de configuration courantes
+    et de l’impact concret des mauvaises pratiques de sécurité sur la protection des données et la gestion des accès.
+  </p>
+</div>
+
+
+<div class="ctf-card">
+  <img src="img/forensique.png" alt="Forensic 404CTF"/>
+
+  <h4>Analyse Forensique – 404CTF</h4>
+
+  <p>
+    Résolution d’un challenge d’analyse forensique portant sur l’exfiltration de données via un périphérique USB,
+    à partir d’un fichier de capture réseau au format <strong>.pcapng</strong>.  
+    L’objectif était d’identifier, extraire puis reconstruire les données afin d’obtenir le flag.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Analyse réseau avec Wireshark</strong> — Ouverture du fichier <code>.pcapng</code> et application
+      de filtres USB pour isoler les communications pertinentes.
+      <br>
+      <em>Compétences :</em> lecture de captures réseau, filtrage avancé, compréhension du protocole USB.
+    </li>
+
+    <li>
+      <strong>Identification des paquets URB Bulk OUT</strong> — Repérage des données utiles via
+      <em>Leftover Capture Data</em> afin de reconstituer le flux exfiltré.
+      <br>
+      <em>Compétences :</em> analyse de trames USB, extraction de payload.
+    </li>
+
+    <li>
+      <strong>Extraction des données</strong> — Export du contenu récupéré au format binaire (<code>.bin</code>).
+      <br>
+      <em>Compétences :</em> manipulation de données brutes, reconstruction de fichiers.
+    </li>
+
+    <li>
+      <strong>Conversion et interprétation</strong> — Transformation du binaire en texte lisible afin de révéler le flag.
+      <br>
+      <em>Compétences :</em> encodage, analyse hexadécimale, compréhension des formats de données.
+    </li>
+  </ul>
+
+  <p>
+    Ce challenge m’a permis de mieux comprendre les techniques d’exfiltration de données,
+    l’analyse de captures réseau et les bases de la forensique numérique,
+    tout en renforçant ma rigueur méthodologique lors d’investigations techniques.
+  </p>
+</div>
+
+
+    
+
+<div class="ctf-card">
+  <img src="img/securite-materielle.png" alt="Hardware 404CTF"/>
+
+  <h4>Sécurité Matérielle – 404CTF</h4>
+
+  <p>
+    Challenge de sécurité matérielle visant à reconstruire un signal audio à partir d’un fichier IQ (<code>chall.iq</code>)
+    contenant des données complexes issues d’une transformée de Fourier.  
+    L’objectif était de traiter ces données numériques afin de reconstituer un fichier audio exploitable et révéler le flag.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Chargement et manipulation des données IQ</strong> — Import du fichier avec <code>numpy</code>
+      pour traiter les valeurs complexes.
+      <br>
+      <em>Compétences :</em> Python scientifique, manipulation de tableaux numériques.
+    </li>
+
+    <li>
+      <strong>Application de l’IFFT</strong> — Utilisation de la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel.
+      <br>
+      <em>Compétences :</em> bases du traitement du signal, compréhension FFT / IFFT.
+    </li>
+
+    <li>
+      <strong>Normalisation et conversion audio</strong> — Mise à l’échelle des valeurs,
+      conversion en <code>int16</code> puis export du signal au format WAV.
+      <br>
+      <em>Compétences :</em> formats audio, conversion numérique, génération de fichiers.
+    </li>
+
+    <li>
+      <strong>Analyse du résultat</strong> — Écoute du signal reconstruit afin d’identifier le flag caché.
+      <br>
+      <em>Compétences :</em> validation par analyse audio et interprétation du signal.
+    </li>
+  </ul>
+
+  <p>
+    <strong>Bien que guidé à environ 70% dans la démarche</strong>, j’ai pris soin de comprendre chaque étape du processus,
+    ce qui m’a permis de consolider mes bases en traitement du signal, en manipulation de données complexes
+    et en exploitation de fichiers issus de systèmes matériels.
+  </p>
+</div>
+</div>
+
+      </article>
+
+
+
+  <!-- ===== TRYHACKME ===== -->
+  <article class="ctf-block-thm">
+
+    <div class="ctf-title-thm">
+
+    <img src="img/thm.webp" alt="TryHackMe logo" class="ctf-thm-logo"/>
+
+    <h3>TryHackMe (Plateforme d'apprentissage en cybersécurité offensive) Mai 2025 - En cours</h3>
+    </div>
+
+    <div class="ctf-grid">
+      <div class="ctf-card">
+        <img src="img/bounty-hck.jpg" alt="Bounty Hacker"/>
+
+    <h4>"Bounty Hacker" (niveau : Facile)</h4>
+    <p>
+      - Reconnaissance : Scan Nmap <br/>
+      - utilisation protocole FTP pour récupérer un fichier "à distance" task.txt, pour identifier un user <br/>
+      - Brute-force SSH : outil utilisé: Hydra pour trouver un mot de passe <br/>
+      - Connexion SSH : accès à l’utilisateur<br/>
+      - Privesc (Privilege Escalation) : <strong>sudo -l</strong> exécution autorisée de tar sans mot de passe<br/>
+      - Élévation de privilèges <br/>
+      - Objectif final : lecture du flag root.txt
+      </p>
+
+      <p>
+       <strong>Compétences acquises :</strong><br/>
+      Ce challenge m’a permis de développer une méthodologie complète de test d’intrusion en environnement Linux. J’ai appris à effectuer une phase de reconnaissance efficace à l’aide de Nmap afin d’identifier les ports ouverts et les services exposés sur une machine cible. L’exploitation du protocole FTP m’a ensuite permis de récupérer un fichier distant (<strong>task.txt</strong>), contenant des informations exploitables pour identifier un utilisateur valide.<br/><br/>
+
+      J’ai mis en œuvre une attaque de brute-force sur le service SSH à l’aide de l’outil <strong>Hydra</strong>, en utilisant une wordlist adaptée pour obtenir des identifiants valides. Une fois l’accès obtenu, j’ai pu me connecter au système via SSH et mener une phase de post-exploitation, incluant l’analyse des droits et des permissions utilisateurs.<br/><br/>
+
+      L’examen des privilèges avec la commande <strong>sudo -l</strong> m’a permis d’identifier une mauvaise configuration autorisant l’exécution de la commande <strong>tar</strong> sans mot de passe. L’exploitation de cette faille m’a conduit à une élévation de privilèges, aboutissant à l’obtention d’un accès root et à la lecture du fichier sensible <strong>root.txt</strong>, validant ainsi la compromission complète de la machine. <br/><br/>
+      <strong>* write-ups détaillé disponible sur demande</strong>
+ 
+    </p>
+
+    </div>
+
+
+
+    <div class="ctf-card">
+      <img src="img/basic.jpg" alt="Basic Pentesting">
+
+    <h4>"Basic Pentesting" (niveau : Facile)</h4>
+    <p>
+      - Reconnaissance : Scan Nmap pour identifier les services actifs (HTTP, SSH, SMB)<br/>
+      - Web Enumeration : découverte d’un dossier caché avec Gobuster, puis récupération d’infos <br/>
+      - Enumération SMB : enum4linux utilisé pour identifier des utilisateurs <br/>
+      - Brute-force SSH : Hydra utilisé avec la wordlist rockyou.txt pour trouver un mot de passe d'un utilisateur<br/>
+      - Connexion SSH : Pour accèder aux utilisateurs<br/>
+      - linPEAS : utilisé pour détecter la présence d’une clé privée SSH appartenant à un autre utilisateur <br/>
+      - Brut Force Attack : cassé la clé de chiffrement RSA pour obtenir un hash et convertir ce hash en un mot de passe plus lisible avec JohnTheRipper
+    
+    </p>
+
+    <p>
+          <strong>Compétences acquises :</strong><br/>
+    Ce challenge m’a permis de mettre en pratique une méthodologie complète de pentesting, en commençant par l’analyse de la surface d’attaque à l’aide de Nmap afin d’identifier les services exposés. J’ai renforcé mes compétences en énumération web et réseau grâce à l’utilisation de Gobuster et d’enum4linux pour découvrir des répertoires cachés et des utilisateurs valides.<br/><br/>
+
+    J’ai ensuite mené une attaque de brute-force SSH avec Hydra et la wordlist rockyou.txt afin d’obtenir un accès initial au système. L’analyse post-exploitation avec linPEAS m’a permis d’identifier un vecteur d’élévation de privilèges via une clé privée SSH, que j’ai pu exploiter en cassant son chiffrement à l’aide de JohnTheRipper, consolidant ainsi mes compétences en escalade de privilèges et en gestion des identifiants.<br/><br/>
+
+    <strong>* Write-up détaillé disponible sur demande</strong>
+  </p>
+    
+    </div>
+
+
+    <div class="ctf-card">
+      <img src="img/rootme.png" alt="RootMe">
+    <h4>"RootMe" (niveau : Facile)</h4><br/>
+<p>
+    - Reconnaissance : Scan Nmap pour détecter les ports ouverts (HTTP, SSH) et les versions des services <br/>
+- Web Enumeration : Utilisation de Gobuster pour découvrir un répertoire caché /panel contenant un formulaire d’upload <br/>
+- Upload Web Shell : Envoi d’un fichier PHP modifié (php-reverse-shell.php.phtml) via le formulaire ; l’extension contournait la protection <br/>
+- Reverse Shell : Netcat à l’écoute sur le port 4444 pour recevoir une connexion distante en tant que www-data (www-data -> c'est le nom de l'utilisateur de la machine) <br/>
+- Privilege Escalation : Recherche de fichiers SUID via la commande find, identification de /usr/bin/python avec le bit SUID root <br/>
+- Élévation de privilèges : Exploitation du SUID sur Python avec os.setuid(0) et os.system("/bin/bash") dans une session interactive Python, permettant d'obtenir un shell root <br/>
+- Post Exploitation : Accès au fichier /root/root.txt contenant le flag final <br/>
+
+<p>
+
+   <strong>Compétences acquises :</strong><br/>
+    Ce challenge m’a permis de consolider mes bases en pentesting web et système, en combinant reconnaissance réseau, énumération web et exploitation d’une fonctionnalité d’upload mal sécurisée. J’ai appris à contourner des restrictions d’extension afin de déposer un web shell et d’obtenir un accès initial à la machine via un reverse shell Netcat.<br/><br/>
+
+    La phase de post-exploitation m’a permis d’approfondir ma compréhension des permissions UNIX, notamment la recherche et l’exploitation de fichiers SUID. L’identification d’un binaire Python mal configuré avec le bit SUID root m’a permis de réaliser une élévation de privilèges et d’obtenir un accès root, validant ainsi la compromission complète du système.<br/><br/>
+
+    <strong>* Write-up détaillé disponible sur demande</strong>
+  </p>
+
+
+</p>
+    
+    </div>
+
+    <div class="ctf-card">
+<img src="img/simple-ctf.png" alt="Simple CTF">
+
+    <h4>"Simple CTF" (niveau : Facile)</h4><br/>
+    <p>
+      - Reconnaissance : Scan Nmap pour détecter les ports ouverts (FTP, HTTP) et les versions des services exposés<br/>
+- Web Enumeration : Analyse du site web vulnérable et identification d’un CMS (CMS Made Simple) exploitable <br/>
+- Exploitation Web : Utilisation d’un exploit SQL Injection (CVE-2019-9053) pour récupérer les identifiants de connexion <br/>
+- Accès utilisateur : Connexion SSH avec les identifiants compromis permettant de prendre le contrôle du compte mitch <br/>
+- Privilege Escalation : Vérification des permissions sudo avec sudo -l, montrant que l’utilisateur peut exécuter /usr/bin/vim en tant que root sans mot de passe <br/>
+- Élévation de privilèges : Exécution de Vim en sudo puis utilisation de :!bash -i pour ouvrir un shell root <br/>
+- Post-Exploitation : Lecture du fichier root dans /root contenant le flag final <br/>
+
+</p>
+
+<p>
+      <strong>Compétences acquises :</strong><br/>
+    Ce challenge m’a permis de renforcer mes compétences en reconnaissance réseau et web, en identifiant les services exposés avec Nmap et en analysant une application web vulnérable reposant sur un CMS obsolète. J’ai appris à exploiter une injection SQL connue (CVE-2019-9053) afin de récupérer des identifiants valides et d’obtenir un accès initial au système.<br/><br/>
+
+    La phase de post-exploitation m’a permis de consolider ma compréhension des mécanismes de gestion des privilèges sous Linux. L’analyse des droits sudo avec <strong>sudo -l</strong> a révélé une mauvaise configuration autorisant l’exécution de Vim en tant que root sans mot de passe. L’exploitation de cette faiblesse m’a permis d’obtenir un shell root et de valider la compromission complète de la machine.<br/><br/>
+
+    <strong>* Write-up détaillé disponible sur demande</strong>
+  </p>
+
+  </div>
+
+  </div>
+  </article>
+  </section>
+
+<h2 class="titre-categorie">Certifications</h2>
+
+<section id="certifications">
+
+  <article class="certification">
+    <a href="img/certifications/diplome_flask.pdf">
+      <img src="img/certifications/diplome-flask.png" alt="Certification Flask Alison">
+    </a>
+    <h3>Dévelopement web avec Flask</h3>
+    <p>
+      Certification AlisonFreeCourse — Création d’applications web avec Flask : routing, templates Jinja, formulaires, gestion des données et bases du backend Python.
+    </p>
+  </article>
+
+  <article class="certification">
+    <a href="img/certifications/certif-python.pdf" target="_blank">
+      <img src="img/certifications/certif-python-img.jpg" alt="Certification Python">
+    </a>
+    <h3>Python – Des fondamentaux aux concepts avancés</h3>
+    <p>
+      Certification France Université Numérique — Bases Python, structures de données, POO, fichiers et automatisation.
+    </p>
+  </article>
+
+  <article class="certification">
+    <a href="img/certifications/ipv6-certif.pdf" target="_blank">
+      <img src="img/certifications/ipv6-certif.png" alt="Certification Réseaux">
+    </a>
+    <h3>Fondamentaux des réseaux informatiques</h3>
+    <p>
+      Certification FUN — TCP/IP, adressage IP, modèle OSI, notions client/serveur et sécurité réseau.
+    </p>
+  </article>
+
+</section>
+
+
+
+</main>
+
+<footer id="contact">
+  <h2>Contactez-moi</h2>
+
+  <form method="post" action="page.html">
+    <textarea cols="30" rows="6"></textarea><br>
+    <input type="text" maxlength="100" placeholder="Cliquez sur envoyez">
+    <button type="submit">
+      <a href="https://www.linkedin.com/in/madane-a-22066327b">Contactez-moi</a>
+    </button>
+  </form>
+</footer>
+
+</body>
+</html>

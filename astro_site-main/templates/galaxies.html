@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Galaxies{% endblock %}
+
+{% block content %}
+
+<html>
+<link rel="stylesheet" href="{{ url_for('static', filename="css/milky_way.css")}}">
+
+
+<head>
+    <style>
+        body
+        {
+            background-image: url({{url_for('static', filename='images/space4.jpg')}})
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+
+
+
+<body>
+
+
+    <div>
+        <h1>La Voie lactée</h1>
+        <img id="img" src="static/images/espace1.jpg" alt="" />
+    </div>
+
+    <h1>Galaxie du Moulinet</h1>
+    <img class="moulinet" src="static/images/moulinet2.jpg" alt="" />
+    
+    <h1>Galaxie Cotonneuse</h1>
+    <img id="img" class="tournesol" src="static/images/tournesol3.webp" alt="" />
+
+    <h1>Galaxie Spirale</h1>
+    <img id="img" src="static/images/spirale.jpg" alt="" />
+
+    <h1>Galaxie du Hoag</h1>
+    <img class="hoag" src="static/images/hoag.jpg" alt="" />
+
+</body>
+</html>
+
+{% endblock %}
+

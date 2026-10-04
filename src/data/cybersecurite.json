@@ -1,0 +1,149 @@
+{
+  "404CTF": {
+    "event": "404CTF – Université Télécom Sud Paris / DGSE / OVHcloud",
+    "date": "10 mai au 1 juin 2025",
+    "ranking": "547ᵉ sur 2 893 participants (top 20%)",
+    "challenges": [
+      {
+        "title": "OSINT - 404CTF",
+        "image": "images/osint.webp",
+        "description": "Participation à 7 challenges OSINT axés sur l’investigation numérique.",
+        "resume_write_up": [
+        "Recherche d’informations sur les réseaux sociaux",
+        "Utilisation de SunCalc pour estimer l’heure et la date de prise de vue d’une photo",
+        "Analyse d’articles de presse pour extraire des données contextuelles",
+        "Consultation de rapports d’accidents aériens pour localiser un crash (challenge nommé 'Heart Attack')",
+        "Géolocalisation avancée et recherche commerciale pour identifier le restaurant le plus éloigné de la station spatiale de Kourou et obtenir le prix d’une boisson (challenge nommé 'Addition Salée')",
+        "Identification d’oiseaux à partir d’un enregistrement audio afin de confirmer une localisation en Guyane (flag : Lamprospiza melanoleuca) (utilisation de l'application mobile BirdNet pour l'identification d'oiseaux)"
+    
+        ]
+      },
+      {
+        "title": "Sécurité Web - 404CTF",
+        "image": "images/securite-web.webp",
+        "description": "Exploitation de vulnérabilités web dans un environnement contrôlé.",
+        "resume_write_up": [
+          "JWT Falsification — Analyse et manipulation de jetons JSON Web Token afin de contourner l’authentification. J’ai exploité une mauvaise configuration de la vérification de signature pour modifier le payload et usurper des privilèges.",
+          "Path Traversal — Exploitation d’entrées utilisateur mal filtrées via des séquences comme ../ permettant d’accéder à des fichiers hors du répertoire prévu (remonter dans l'arboresence des fichiers du serveur)",
+          "Ces challenges m’ont permis de renforcer ma compréhension du backend web, des erreurs de configuration courantes et de l’impact concret des mauvaises pratiques de sécurité sur la protection des données et la gestion des accès."]},
+      {
+        "title": "Analyse Forensique – 404CTF",
+        "image": "images/forensique.webp",
+        "description": "Résolution d’un challenge d’analyse forensique portant sur l’exfiltration de données via un périphérique USB, à partir d’un fichier de capture réseau au format .pcapng. L’objectif était d’identifier, extraire puis reconstruire les données afin d’obtenir le flag.",
+        "resume_write_up": [
+            "Analyse réseau avec Wireshark ",
+            "Ouverture du fichier .pcapng et application de filtres USB pour isoler les communications pertinentes.",
+            "Identification des paquets URB Bulk OUT et Repérage des données utiles via 'Leftover Capture Data' afin de reconstituer le flux exfiltré.",
+            "Extraction des données — Export du contenu récupéré au format binaire '.bin'.",
+            "Conversion et interprétation du binaire en texte lisible afin de révéler le flag.",
+            "Ce challenge m’a permis de mieux comprendre les techniques d’exfiltration de données, l’analyse de captures réseau et les bases de la forensique numérique, tout en renforçant ma rigueur méthodologique lors d’investigations techniques."
+
+        ]
+      },
+      {
+        "title": "Sécurité Matérielle – 404CTF",
+        "image": "images/securite-materielle.webp",
+        "description": "Challenge de sécurité matérielle visant à reconstruire un signal audio à partir d’un fichier IQ contenant des données complexes issues d’une transformée de Fourier. L’objectif était de traiter ces données numériques afin de reconstituer un fichier audio exploitable et révéler le flag.",
+        "resume_write_up": [
+          "Chargement et manipulation des données IQ, import du fichier avec 'numpy' pour traiter les valeurs complexes.",
+          "Application de l’IFFT, utilisation de la transformée de Fourier inverse afin de repasser du domaine fréquentiel au domaine temporel.",
+          "Normalisation et conversion audio, conversion en 'int16' puis export du signal au format WAV",
+          "Analyse du résultat, écoute du signal reconstruit afin d’identifier le flag caché.",
+          "Bien que guidé à environ 70% dans la démarche, j’ai pris soin de comprendre chaque étape du processus, ce qui m’a permis de consolider mes bases en traitement du signal, en manipulation de données complexes et en exploitation de fichiers issus de systèmes matériels."
+        ]
+      }
+    ]
+  },
+
+    "404CTF_2026": [
+    "2e participation au 404CTF. Classement : 632ᵉ sur 2 019 participants.",
+
+    "Résolution de 4 challenges dans la catégorie OSINT, avec des difficultés allant de Intro à Moyen.",
+
+    "Pour le challenge 'Canular savant 1/3' (Facile), j’ai recherché un rond-point parisien à partir d’indices géographiques concernant plusieurs fontaines. J’ai utilisé des recherches web, Google Maps et Wikipédia afin de recouper les différentes pistes et identifier le lieu recherché.",
+
+    "Pour le challenge 'OSINT METRO DODO' (Moyen), j’ai analysé les lignes de métro passant par Châtelet afin d’identifier deux stations portant les noms de scientifiques. J’ai étudié les différentes stations et recoupé leurs noms avec les scientifiques correspondants.",
+
+    "Pour le challenge 'Canular savant 2/3' (Moyen), j’ai identifié un groupe de musique alternatif originaire de Columbus, puis recherché une référence à un groupe de scientifiques français dans leurs paroles. Les recherches m’ont conduit vers Twenty One Pilots et leur morceau 'Morph', qui fait référence au groupe de mathématiciens Nicolas Bourbaki.",
+
+    "Pour le challenge 'CHAUD DEVANT' (Intro), j’ai identifié des scientifiques à partir d’une image et d’indices biographiques. J’ai ensuite recoupé différentes sources afin de retrouver leur lieu de décès ainsi que plusieurs informations personnelles nécessaires à la résolution du challenge.",
+
+    "Ces challenges m’ont permis de renforcer mes compétences en recherche web, recherche d’images, analyse d’indices, recoupement de sources, recherche géographique et investigation OSINT.",
+
+    "Résolution de 1 challenge dans la catégorie Divers, de difficulté Intro.",
+
+    "Pour le challenge 'Super EnQuête Libre 1/4' (Intro), j’ai mené une investigation dans une base de données SQLite accessible en ligne de commande via Netcat. J’ai exploré différentes tables et utilisé des requêtes SQL telles que SELECT, LIMIT et OFFSET afin de rechercher un individu et recouper les informations disponibles. L’analyse des tables Person et Attendance m’a permis d’identifier le badge actuellement associé à Noel Laurent et de résoudre le challenge.",
+
+    "Ce challenge m’a permis de renforcer mes compétences en gestion et exploration de bases de données SQL, en utilisation de SQLite en ligne de commande, ainsi qu’en investigation et recoupement de données.",
+
+    "Résolution de 1 challenge dans la catégorie Analyse forensique, de difficulté Facile.",
+
+    "Pour le challenge 'SMS CURIEUX' (Facile), j’ai analysé plusieurs bases de données SQLite contenant des SMS/MMS avec DB Browser for SQLite afin d’extraire différents fragments du flag et les recouper.",
+
+    "Ce challenge m’a permis de renforcer mes compétences en analyse forensique, extraction de données SQLite et recoupement d’informations."
+  ],
+
+  "TryHackMe": {
+    "platform": "TryHackMe – Offensive Security Labs",
+    "since": "TryHackMe (Plateforme d'apprentissage en cybersécurité offensive) Mai 2025 - En cours",
+    "rooms": [
+      {
+        "title": "Bounty Hacker",
+        "image": "images/bounty-hck.webp",
+        "level": "Facile",
+        "resume_write_up": [
+        "Reconnaissance : Scan Nmap",
+        "utilisation protocole FTP pour récupérer un fichier 'à distance' task.txt, pour identifier un user",
+       "Brute-force SSH : outil utilisé: Hydra pour trouver un mot de passe",
+       "Connexion SSH : accès à l’utilisateur",
+       "Privesc (Privilege Escalation) : sudo -l exécution autorisée de tar sans mot de passe",
+       "Élévation de privilèges",
+       "Objectif final : lecture du flag root.txt"
+        ]
+      },
+      {
+        "title": "Basic Pentesting",
+        "image": "images/basic.webp",
+        "level": "Facile",
+        "resume_write_up": [
+        "Reconnaissance : Scan Nmap pour identifier les services actifs (HTTP, SSH, SMB)",
+      "Web Enumeration : découverte d’un dossier caché avec Gobuster, puis récupération d’infos",
+      "Enumération SMB : enum4linux utilisé pour identifier des utilisateurs",
+      "Brute-force SSH : Hydra utilisé avec la wordlist rockyou.txt pour trouver un mot de passe d'un utilisateur",
+      "Connexion SSH : Pour accèder aux utilisateurs",
+      "linPEAS : utilisé pour détecter des failles permettant de devenir root",
+      "Brut Force Attack : cassé la clé de chiffrement RSA pour obtenir un hash et convertir ce hash en un mot de passe plus lisible avec JohnTheRipper"
+    
+        ]
+      },
+      {
+        "title": "RootMe",
+        "image": "images/rootme.webp",
+        "level": "Facile",
+        "resume_write_up": [
+        "Reconnaissance : Scan Nmap pour détecter les ports ouverts (HTTP, SSH) et les versions des services",
+        "Web Enumeration : Utilisation de Gobuster pour découvrir un répertoire caché /panel contenant un formulaire d’upload",
+        "Upload Web Shell : Envoi d’un fichier PHP modifié (php-reverse-shell.php.phtml) via le formulaire ; l’extension contournait la protection",
+        "Reverse Shell : Netcat à l’écoute sur le port 4444 pour recevoir une connexion distante en tant que www-data ('www-data' c'est le nom de l'utilisateur de la machine)",
+        "Privilege Escalation : Recherche de fichiers SUID via la commande find, identification de '/usr/bin/python' avec le bit SUID root",
+        "Élévation de privilèges : Exploitation du SUID sur Python avec os.setuid(0) et os.system '/bin/bash' dans une session interactive Python, permettant d'obtenir un shell root",
+        "Post Exploitation : Accès au fichier /root/root.txt contenant le flag final"
+        ]
+      },
+      {
+        "title": "Simple CTF",
+        "image": "images/simple-ctf.webp",
+        "level": "Facile",
+        "resume_write_up": [
+            "Reconnaissance : Scan Nmap pour détecter les ports ouverts (FTP, HTTP) et les versions des services exposés",
+            "Web Enumeration : Analyse du site web vulnérable et identification d’un CMS (CMS Made Simple) exploitable",
+            "Exploitation Web : Utilisation d’un exploit SQL Injection (CVE-2019-9053) pour récupérer les identifiants de connexion",
+            "Accès utilisateur : Connexion SSH avec les identifiants compromis permettant de prendre le contrôle du compte mitch",
+            "Privilege Escalation : Vérification des permissions sudo avec sudo -l, montrant que l’utilisateur peut exécuter /usr/bin/vim en tant que root sans mot de passe",
+            "Élévation de privilèges : Exécution de Vim en sudo puis utilisation de :!bash -i pour ouvrir un shell root",
+            "Post-Exploitation : Lecture du fichier root dans /root contenant le flag final"
+        ]
+      }
+    ]
+  }
+}

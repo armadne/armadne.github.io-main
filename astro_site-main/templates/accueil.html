@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename="css/accueil.css")}}">
+</head>
+
+
+<h3> Ci-dessous retrouvés les sites les plus connus qui sont spécialisés dans l'astronomie et qui donne chaque jour des nouvelles</h3>
+
+<div>
+  <a class="item" href="https://www.futura-sciences.com/sciences/espace/actualites/ ">//www.futura </br>
+  <a class="item" href="https://astronomes.com/">//astronomes.com/ </br>
+  <a class="item" href="https://www.nasa.gov/">//www.nasa.gov/ </br>
+  <a class="item" href="https://www.spacex.com/">//www.spacex.com/ </br>
+  <a class="item" href="https://reves-d-espace.com/#:~:text=R%C3%AAves%20d'Espace%20%E2%80%93%20Un%20site,grandes%20missions%20actuelles%20et%20futures">espace.com/ </br>
+</div>
+
+
+{% endblock %}

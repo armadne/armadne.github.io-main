@@ -1,0 +1,71 @@
+{
+  "site_web": [
+    "HTML5 / CSS3 responsive",
+    "JavaScript ES6",
+    "React (composants, state, props, routing)",
+    "Intégration Figma",
+    "DOM dynamique",
+    "SEO technique (Lighthouse, Wave)",
+    "Accessibilité (ARIA, contrastes, balises sémantiques)",
+    "Optimisation performances (lazy loading, compression)",
+    "API REST",
+    "Authentification JWT",
+    "Node.js / Express",
+    "MongoDB / Mongoose"
+  ],
+
+  "python": [
+    "Automatisation Selenium / Playwright",
+    "Web scraping",
+    "Traitement Excel avec openpyxl",
+    "Génération de documents Word (python-docx)",
+    "Requêtes HTTP (requests)",
+    "Scripts d’automatisation",
+    "Notifications SMS",
+    "Manipulation de fichiers",
+    "Bots Python",
+    "Python orienté projet"
+  ],
+
+  "embarque": [
+    "ESP32",
+    "Arduino",
+    "Capteurs PIR",
+    "Capteurs ultrasoniques",
+    "Détection de présence",
+    "LED / buzzer",
+    "Communication Wi-Fi",
+    "Interface Flask embarquée",
+    "Systèmes portables sur batterie"
+  ],
+
+  "cybersecurité": [
+    "OSINT",
+    "Investigation numérique",
+    "Géolocalisation avancée",
+    "Analyse média (audio / image)",
+    "JWT manipulation",
+    "Path traversal",
+    "Sécurité web",
+    "Forensique réseau (Wireshark)",
+    "Analyse .PCAP (Wireshark)",
+    "Extraction de données USB",
+    "Python scientifique",
+    "Traitement du signal",
+    "Analyse hexadécimale",
+    "Reconnaissance Nmap",
+    "Enumeration Web (Gobuster)",
+    "Bruteforce SSH (Hydra)",
+    "Privilege Escalation",
+    "Web shell",
+    "Reverse shell Netcat",
+    "SQL Injection",
+    "Exploitation CMS",
+    "sudo misconfiguration",
+    "Root compromise"
+  ]
+
+   
+ 
+}
+
