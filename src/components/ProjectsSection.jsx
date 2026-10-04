@@ -1,8 +1,22 @@
-import Card from "./Card";
+import { useState } from "react";
+import Card from "./Card"; 
 
 export default function ProjectsSection({ id, title, data }) {
 
+  const [showAllCyber, setShowAllCyber] = useState(false);
+  
+
   if (!data || data.length === 0) return null;
+
+  const isCyber = id === "cybersecurite";
+ 
+
+  let visibleData = data;
+
+  if (isCyber && !showAllCyber) {
+    visibleData = data.slice(0, 3);
+  }
+
 
   return (
     <section id={id} className="project">
@@ -10,7 +24,7 @@ export default function ProjectsSection({ id, title, data }) {
       <h2>{title}</h2>
 
       <div className="cards-grid">
-        {data.map((item, index) => (
+        {visibleData.map((item, index) => (
           <Card
             key={item.id || index}
             title={item.title}
@@ -23,6 +37,16 @@ export default function ProjectsSection({ id, title, data }) {
           />
         ))}
       </div>
+
+      
+      {isCyber && (
+        <button
+          className="show-more"
+          onClick={() => setShowAllCyber(!showAllCyber)}
+        >
+          {showAllCyber ? "Afficher moins" : "Afficher plus"}
+        </button>
+      )}
 
     </section>
   );
