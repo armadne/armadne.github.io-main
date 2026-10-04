@@ -55,33 +55,44 @@
     ]
   },
 
-    "404CTF_2026": [
-    "2e participation au 404CTF. Classement : 632ᵉ sur 2 019 participants.",
-
-    "Résolution de 4 challenges dans la catégorie OSINT, avec des difficultés allant de Intro à Moyen.",
-
-    "Pour le challenge 'Canular savant 1/3' (Facile), j’ai recherché un rond-point parisien à partir d’indices géographiques concernant plusieurs fontaines. J’ai utilisé des recherches web, Google Maps et Wikipédia afin de recouper les différentes pistes et identifier le lieu recherché.",
-
-    "Pour le challenge 'OSINT METRO DODO' (Moyen), j’ai analysé les lignes de métro passant par Châtelet afin d’identifier deux stations portant les noms de scientifiques. J’ai étudié les différentes stations et recoupé leurs noms avec les scientifiques correspondants.",
-
-    "Pour le challenge 'Canular savant 2/3' (Moyen), j’ai identifié un groupe de musique alternatif originaire de Columbus, puis recherché une référence à un groupe de scientifiques français dans leurs paroles. Les recherches m’ont conduit vers Twenty One Pilots et leur morceau 'Morph', qui fait référence au groupe de mathématiciens Nicolas Bourbaki.",
-
-    "Pour le challenge 'CHAUD DEVANT' (Intro), j’ai identifié des scientifiques à partir d’une image et d’indices biographiques. J’ai ensuite recoupé différentes sources afin de retrouver leur lieu de décès ainsi que plusieurs informations personnelles nécessaires à la résolution du challenge.",
-
-    "Ces challenges m’ont permis de renforcer mes compétences en recherche web, recherche d’images, analyse d’indices, recoupement de sources, recherche géographique et investigation OSINT.",
-
-    "Résolution de 1 challenge dans la catégorie Divers, de difficulté Intro.",
-
-    "Pour le challenge 'Super EnQuête Libre 1/4' (Intro), j’ai mené une investigation dans une base de données SQLite accessible en ligne de commande via Netcat. J’ai exploré différentes tables et utilisé des requêtes SQL telles que SELECT, LIMIT et OFFSET afin de rechercher un individu et recouper les informations disponibles. L’analyse des tables Person et Attendance m’a permis d’identifier le badge actuellement associé à Noel Laurent et de résoudre le challenge.",
-
-    "Ce challenge m’a permis de renforcer mes compétences en gestion et exploration de bases de données SQL, en utilisation de SQLite en ligne de commande, ainsi qu’en investigation et recoupement de données.",
-
-    "Résolution de 1 challenge dans la catégorie Analyse forensique, de difficulté Facile.",
-
-    "Pour le challenge 'SMS CURIEUX' (Facile), j’ai analysé plusieurs bases de données SQLite contenant des SMS/MMS avec DB Browser for SQLite afin d’extraire différents fragments du flag et les recouper.",
-
-    "Ce challenge m’a permis de renforcer mes compétences en analyse forensique, extraction de données SQLite et recoupement d’informations."
-  ],
+  "404CTF_2026": {
+  "event": "404CTF – Université Télécom Sud Paris / DGSE / OVHcloud",
+  "date": "2026",
+  "ranking": "632ᵉ sur 2 019 participants",
+  "challenges": [
+    {
+      "title": "OSINT - 404CTF 2026",
+      "image": "images/osint2026.webp",
+      "description": "Résolution de 4 challenges OSINT, avec des difficultés allant de Intro à Moyen.",
+      "resume_write_up": [
+        "Canular savant 1/3 — Recherche d’un rond-point parisien à partir d’indices géographiques concernant plusieurs fontaines. Utilisation de recherches web, Google Maps et Wikipédia afin de recouper les différentes pistes et identifier le lieu recherché.",
+        "OSINT METRO DODO — Analyse des lignes de métro passant par Châtelet afin d’identifier deux stations portant les noms de scientifiques. Recoupement des noms des stations avec les scientifiques correspondants.",
+        "Canular savant 2/3 — Identification d’un groupe de musique alternatif originaire de Columbus, puis recherche d’une référence à un groupe de scientifiques français dans leurs paroles. Les recherches ont conduit vers Twenty One Pilots et leur morceau 'Morph', faisant référence au groupe de mathématiciens Nicolas Bourbaki.",
+        "CHAUD DEVANT — Identification de scientifiques à partir d’une image et d’indices biographiques, puis recoupement de différentes sources afin de retrouver leur lieu de décès ainsi que plusieurs informations nécessaires à la résolution du challenge.",
+        "Ces challenges m’ont permis de renforcer mes compétences en recherche web, recherche d’images, analyse d’indices, recoupement de sources, recherche géographique et investigation OSINT."
+      ]
+    },
+    {
+      "title": "Divers - 404CTF 2026",
+      "image": "images/investig-sql.webp",
+      "description": "Résolution d’un challenge d’investigation sur une base de données SQLite accessible en ligne de commande via Netcat.",
+      "resume_write_up": [
+        "Super EnQuête Libre 1/4 — Exploration d’une base de données SQLite à l’aide de requêtes SQL telles que SELECT, LIMIT et OFFSET afin de rechercher un individu et recouper les informations disponibles.",
+        "Analyse des tables Person et Attendance afin d’identifier le badge actuellement associé à Noel Laurent et résoudre le challenge.",
+        "Ce challenge m’a permis de renforcer mes compétences en gestion et exploration de bases de données SQL, en utilisation de SQLite en ligne de commande, ainsi qu’en investigation et recoupement de données."
+      ]
+    },
+    {
+      "title": "Analyse Forensique - 404CTF 2026",
+      "image": "images/investig-sms.webp",
+      "description": "Résolution d’un challenge d’analyse forensique basé sur plusieurs bases de données SQLite contenant des SMS/MMS.",
+      "resume_write_up": [
+        "SMS CURIEUX — Analyse de plusieurs bases de données SQLite contenant des SMS/MMS avec DB Browser for SQLite afin d’extraire différents fragments du flag et les recouper.",
+        "Ce challenge m’a permis de renforcer mes compétences en analyse forensique, extraction de données SQLite et recoupement d’informations."
+      ]
+    }
+  ]
+},
 
   "TryHackMe": {
     "platform": "TryHackMe – Offensive Security Labs",
